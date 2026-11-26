@@ -1,0 +1,21 @@
+{
+  "test_MAE": 0.608,
+  "test_RMSE": 0.924,
+  "test_R2": 0.9629,
+  "five_fold_CV_R2_mean": 0.3314,
+  "five_fold_CV_R2_std": 1.0923,
+  "training_rows": 240,
+  "testing_rows": 61,
+  "numeric_features": [
+    "Year",
+    "Present_Price",
+    "Driven_kms",
+    "Owner"
+  ],
+  "categorical_features": [
+    "Car_Name",
+    "Fuel_Type",
+    "Selling_type",
+    "Transmission"
+  ]
+}
